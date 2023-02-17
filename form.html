@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pricing</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css" >
+<script src="jquery-3.3.1.min.js"></script>
+<script src="script.js"></script>
+
+</head>
+<body>
+
+<div class="header">
+  <h1 id="mouseEnter">Raytheon Tiling Corporation</h1>
+</div>
+
+<div class="navigation_bar">
+  <a href="main.html" >Home</a>
+  <a href="aboutus.html"id="link1">About us</a>
+    <a href="gallery.html"id="link2">Gallery</a>
+    <a href="#" id="link3">Pricing</a>
+  <a href="https://goo.gl/maps/JH5KUwfr6BF6ryu46" id="link4">Location</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+      <h2>Services</h2>
+      <ul>
+          <li>Wall and Floor Tiling</li>
+          <li>Large Format Tiling</li>
+          <li>Under Floor Heating</li>
+          <li>Bathroom Remodelling</li>
+          <li>Mosaic & Feature walls</li>
+          <li>Wet Rooms & Swimming Pools</li>
+          <li>Self Levelling & Floor Preparation</li>
+          <li>Waterproofing & Tanking Wet areas</li>
+          <li>Commercial & Domestic tiling services</li>
+      </ul>
+  </div>
+  <div class="column middle">
+      <h1>Get your quote now!</h1>
+      <form id="quote_form">
+          <div>
+              <input type="text" id="form_fname" name="" required="">
+              <span class="error_form" id="fname_error_message"></span>
+              <label>First name</label>
+          </div>
+          <div>
+              <input type="text" id="form_sname" name="" required="">
+              <span class="error_form" id="sname_error_message"></span>
+              <label>Second name</label>
+          </div>
+          <div>
+              <input type="email" id="form_email" name="" required="">
+              <span class="error_form" id="email_error_message"></span>
+              <label>E-Mail</label>
+          </div>
+            <input type="date" id="form_date" name="" required="" onfocus="this.min=new Date().toISOString().split('T')[0]">
+            <span class="error_form" id="date_error_message"></span>
+            <label>Date</label>
+          <div>
+              <input type="number" id="form_area" name="" required="" min="1" max="99999">
+              <span class="error_form" id="area_error_message"></span>
+              <label>Area</label>
+          </div>
+          <div>
+              <input type="color" id="form_color" name="" required="">
+              <label>Tile color</label>
+          </div>
+          <fieldset>
+              <legend>Please select your preferred tiling method:</legend>
+              <div>
+                  <input type="radio" id="contactChoice1" name="method" value="Square" required="" />
+                  <label for="contactChoice1">Squares</label>
+                  <input type="radio" id="contactChoice2" name="method" value="Triangle" />
+                  <label for="contactChoice2">Triangles</label>
+                  <input type="radio" id="contactChoice3" name="method" value="Hexagon" />
+                  <label for="contactChoice3">Hexagons</label>
+                  <input type="radio" id="contactChoice4" name="method" value="Penrose" />
+                  <label for="contactChoice3">Penrose</label>
+              </div>
+          </fieldset>
+          <input type="submit" value="Submit" name="">
+      </form>
+</div>
+  <div class="column side">
+      <h2>Preparation</h2>
+      <p>We have extensive knowledge in the use of different types of Adhesives & Primers, De-coupling Membranes, Expansion Joints, Heated floors, Calcium Sulphate / Anhydrite Screeds and all other aspects of preparation before tiling. </p>
+  </div>
+</div>
+
+<div class="footer">
+    <p>COPYRIGHT © 2023 RAYTHEON TILING CORPORATION - ALL RIGHTS RESERVED</p>
+</div>
+  
+</body>
+</html>
